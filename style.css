@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    height: 98vh;
+    font-family: sans-serif;
+}
+
+
+
+button {
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+    min-width: 120px;
+}
+
+button:focus {
+    background-color: #c3c3c3;
+}
+
+
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 600px;
+}
+
+.input-block, .output-block {
+    display: flex;
+    flex-direction: column;
+}
