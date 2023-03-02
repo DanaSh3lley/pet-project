@@ -7,8 +7,24 @@ body {
     flex-direction: row;
     height: 98vh;
     font-family: sans-serif;
+    font-size: 24px;
 }
 
+.preview {
+    max-width: 900px;
+    min-width: 900px;
+    margin-top: 100px;
+}
+
+main {
+    max-width: 900px;
+    min-width: 900px;
+}
+
+.headword {
+    font-size: 16px;
+    display: inline;
+}
 
 
 button {
